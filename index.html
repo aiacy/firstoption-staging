@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Option</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+<script src="./utils.js"></script>
+</head>
+
+<body class="relative overflow-x-hidden bg-repeat bg-fit w-full" style="background-image: url('./img/grid.png')">
+
+    <!-- NAVIGATION -->
+    <nav class="top-4 flex flex-row justify-between items-center h-[92px] m-[50px] z-10">
+        <img src="./img/black_logo_transparent_background.png" class="h-[100px]" alt="">
+        <div>
+            <ul class="absolute right-0 flex flex-row gap-12 text-xs uppercase z-100">
+                <li><a href="#services">services</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#about">about us</a></li>
+                <li><a href="#contact">contact us</a></li>
+                <li><a href="#">437.775.8877</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <section class="h-screen flex justify-between relative z-10 fade-in">
+        <div class="flex flex-col justify-center ml-[100px]">
+            <h1 class="text-[72px] z-10 leading-snug font-black absolute top-[80px]">Crafting <span class="bg-[#BDBDBD] p-2">Excellence</span> </br> in Construction</h1>
+            <p class="w-[30%] text-xs leading-5 pt-10">At First Option, we don't just build structures; we create lasting impressions. Our skilled team of professionals is driven by a passion for precision and a commitment to delivering top-notch construction services. From conceptualization to completion, we prioritize quality, innovation, and client satisfaction. Choose First Option Construction for a seamless journey from vision to reality, where craftsmanship meets excellence.</p>
+            <button class="h-[83px] bg-[#D9D9D9] mt-[32px] w-fit p-4 flex justify-between items-center gap-3">
+                <a href="#about"><p class="text-[12px] uppercase">Learn More</p></a>
+                <img src="./img/arrow.png" alt="" class="h-[20px]">
+            </button>
+        </div>
+        <div>
+            <img src="./img/house.png" alt="" class="rounded-bl-3xl w-[700px] h-[800px] absolute top-[-200px] right-0 z-0">
+        </div>
+    </section>  
+
+    <!-- Second Section -->
+    <section id="about" class="relative top-[-150px] flex flex-row reveal">
+        <img src="./img/FB_IMG_1675290040185.jpg" alt="" class="rounded-tr-3xl rounded-br-3xl h-[980px] w-[663px]">
+        <div class="flex flex-col px-[88px] gap-[70px]">
+            <div class="pt-[222px] flex gap-3 items-center justify-end">
+                <h2 class="font-extrabold text-[32px] uppercase">About Us</h2>
+                <img src="./img/rect-horiz.png" class="h-[12px]" alt="">
+            </div>
+    
+            <div>
+                <p class="font-light text-xs leading-5">
+                    We are a full-service commercial and residential
+                    renovation company based in Mississauga, ON. At First
+                    Option, we build structures and craft
+                    experiences and turn dreams into reality. With a legacy
+                    of excellence in the construction industry, we are
+                    dedicated to delivering top-notch construction
+                    solutions that meet and exceed your expectations.
+                <br><br>
+                    Our mission is to provide our clients with top of the
+                    line design consultation, quality materials, and expert
+                    craftsmanship at an affordable price. We believe that
+                    renovating your home or business should be a hassle free experience for all involved.  
+                </p>
+            </div>
+
+            <div class="flex justify-between gap-10">
+                <button class="h-[83px] w-[100px] bg-[#D9D9D9] p-4 flex justify-between items-center gap-3">
+                    <a href="#gallery"><p class="text-xs uppercase">See Our Work</p></a>
+                    
+                </button>
+                <img src="./img/IMG-20230721-WA0002.jpg" alt="" class="object-cover rounded-3xl h-[400px] w-[550px]">
+            </div>
+
+          
+        </div>
+
+    
+    </section> 
+
+    <!-- Recent Works -->
+    <section class="py-[152px] bg-black flex flex-col gap-[100px] relative top-[-100px] reveal">
+        <div id="gallery" class="text-white reveal">
+            <h2 class="uppercase text-xs text-center">Our Recent Work</h2>
+            <p class="font-black text-center text-3xl">Excellence in Every Detail</p>
+        </div>
+        
+        <!-- Scroll Project Slideshow -->
+        <div class="flex flex-row shrink-0 gap-10 px-8 pb-10 pl-[100px] overflow-scroll">
+            <!--Project #1-->
+            <div class="flex-none w-[400px] reveal">
+                <img src="./img/gallery/08.jpg" alt="" class="object-cover w-[658px] h-[400px]">
+                <div class="flex gap-4 pt-4">
+                    <div>
+                        <p class="text-white font-black">01</p>
+                    </div>
+                    <div>
+                        <h3 class="text-white uppercase font-black">Outdoor Renovations</h3>
+                        <p class="text-white text-xs leading-5">Custom home renovations can be a great way to make a home look and feel like new. Whether you are looking to give.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Project #1-->
+            <div class="flex-none w-[400px] reveal">
+                        <img src="./img/gallery/20230307_120409.jpeg" alt="" class="object-cover w-[658px] h-[400px]">
+                        <div class="flex gap-4 pt-4">
+                            <div>
+                                <p class="text-white font-black">02</p>
+                            </div>
+                            <div>
+                                <h3 class="text-white uppercase font-black">Bathroom Upgrade</h3>
+                                <p class="text-white text-xs leading-5">With style and functionality combined, we've added considerable value to homes, turning daily rituals into lavish experiences.</p>
+                            </div>
+                        </div>
+            </div>
+
+            <!--Project #2-->
+            <div class="flex-none w-[400px] reveal">
+                <img src="./img/IMG-20230721-WA0006.jpg" alt="" class="object-cover w-[658px] h-[400px]">
+                <div class="flex gap-4 pt-4">
+                    <div>
+                        <p class="text-white font-black">03</p>
+                    </div>
+                    <div>
+                        <h3 class="text-white uppercase font-black">Commercial Luxury</h3>
+                        <p class="text-white text-xs leading-5">By translating visions into upscale, functional spaces, we've elevated businesses, leaving lasting impressions that attract clients and boost brand prestige.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Project #3-->
+            <div class="flex-none w-[400px] reveal">
+                <img src="./img/20221104_182207.jpg" alt="" class="w-[658px] h-[400px]">
+                <div class="flex gap-4 pt-4">
+                    <div>
+                        <p class="text-white font-black">04</p>
+                    </div>
+                    <div>
+                        <h3 class="text-white uppercase font-black">Storage Efficiency</h3>
+                        <p class="text-white text-xs leading-5">Revel in maximized space, improved organization, and elevated style, turning closets into personalized havens of order and luxury.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+     <!-- Services Section -->
+     <section class="relative top-[-50px] flex flex-row reveal">
+        <img src="./img/gallery/IMG-20230721-WA0004.jpg" alt="" class="rounded-tr-3xl rounded-br-3xl object-cover h-[980px] w-[663px]">
+        <div class="flex flex-col px-[88px] gap-[50px]">
+
+            <div class="pt-[122px] flex gap-3 items-center justify-end">
+                <h2 class="font-extrabold text-[32px] uppercase">Services</h2>
+                <img src="./img/rect-horiz.png" class="h-[12px]" alt="">
+            </div>
+    
+            <div class="grid grid-cols-2 grid-rows-2 gap-6 pt-[50px]">
+               <div class="flex flex-col gap-4">
+                <img src="./img/blueprint.png" alt="" class="h-10 w-10">
+                <h3 class="font-black">Custom Home Renovations</h3>
+                <p class="text-xs leading-5">
+                    Elevate your living space with First Option Construction's custom home renovations. 
+                    Collaborate with us to transform your vision into reality, ensuring every detail aligns 
+                    with your unique style and preferences.
+                </p>
+               </div>
+               <div class="flex flex-col gap-4">
+                <img src="./img/home-theater.png" alt="" class="h-10 w-10">
+                <h3 class="font-black">Basement Renovations</h3>
+                <p class="text-xs leading-5">
+                    Unlock your home's potential with First Option Construction's basement renovations. 
+                    From cozy entertainment areas to functional offices, our team maximizes utility, 
+                    creating vibrant, purposeful spaces with quality and efficiency.
+                </p>
+               </div>
+               <div class="flex flex-col gap-4">
+                <img src="./img/kitchen.png" alt="" class="h-10 w-10">
+                <h3 class="font-black">Kitchen Renovations</h3>
+                <p class="text-xs leading-5">
+                    Rediscover your kitchen with First Option Construction's renovation services. 
+                    Our skilled team blends aesthetic flair with functional design, creating kitchens 
+                    that embody your style and meet practical needs seamlessly.
+                </p>
+               </div>
+               <div class="flex flex-col gap-4">
+                <img src="./img/location.png" alt="" class="h-10 w-10">
+                <h3 class="font-black">Commercial Renovations</h3>
+                <p class="text-xs leading-5">
+                    Optimize your business space with First Option Construction's commercial renovations 
+                    in the Greater Toronto Area. We transform commercial environments, reflecting brand 
+                    identity, enhancing functionality, and adhering to timelines with excellence.
+                </p>
+               </div>
+            </div>
+           
+        </div>
+
+    
+    </section> 
+
+     <!-- Services Breakdown -->
+        <section class="px-[100px] py-[50px] reveal">  
+            <div class="flex gap-3 items-center">
+                <h2 class="font-extrabold text-[32px] uppercase">Our Process</h2>
+                <img src="./img/rect-horiz.png" class="h-[12px]" alt="">
+            </div>
+    
+            <div class="flex flex-col gap-16 pt-[50px]">
+                <div class="flex gap-5 text-xs uppercase justify-between">
+                    <a href="#" class="underline">Pre-construction</a>
+                    <a href="">Construction</a>
+                    <a href="">Design Build</a>
+                    <a href="">Virtual Design & Construction</a>
+                    <a href="">High Performance & Sustainable Building</a>
+                    <a href="">Special Projects</a>
+                </div>
+
+                <div class="relative flex flex-col items-center">
+
+                    <div class="absolute bg-black left-0 top-[150px]">
+                        <div class="text-white p-5">
+                            <p>PHASE</p>
+                            <p class="font-black">01</p>
+                        </div>
+                        <div class="border-t border-white p-5">
+                            <p class="text-center text-white text-xs">PRE-CONSTRUCTION</p>   
+                        </div>
+                    </div>
+
+                    <img src="./img/pexels-mikael-blomkvist-8961298.jpg" class="object-cover h-[450px] w-[90%]" alt="">
+                    <div class="flex justify-between items-center w-[90%]">
+                        <p class="w-[60%] text-xs leading-5">
+                            In the initial phase, we meticulously plan every detail, assessing requirements and strategizing for success. 
+                            Our pre-construction process sets the foundation for a seamless journey, ensuring precision and alignment with your vision.
+                        </p>
+                        <button class="h-[83px] bg-[#D9D9D9] mt-[32px] w-fit p-4 flex justify-between items-center gap-3">
+                            <a href="#"><p class="text-[12px] uppercase">Learn More</p></a>
+                            <img src="./img/arrow.png" alt="" class="h-[20px]">
+                        </button>
+                    </div>
+                </div>
+                
+
+            
+
+            </div>
+    
+        </section>
+
+    <!-- More About Us -->
+    <section class="mt-[100px] px-[100px] py-[100px] flex flex-col gap-12 bg-white reveal">
+
+        <div>
+            <h2 class="font-black text-4xl w-[60%]">Innovation in Every Beam, Excellence in Every Detail: Crafting Tomorrow's Visions with Precision</h2>
+        </div>
+
+        <div class="flex gap-8 pt-10">
+            <div class="flex flex-row gap-3">
+                <div>
+                    <p class="font-black text-8xl text-[#B6A442]">01</p>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h3 class="text-3xl font-black">Expert Craftsmanship</h3>
+                    <p class="text-xs leading-5">Our construction company takes pride in the mastery of our craft. 
+                        With a team of skilled professionals, we guarantee precision and excellence in 
+                        every detail. From intricate designs to structural integrity, our commitment to 
+                        expert craftsmanship ensures your project is in capable hands.</p>
+                </div>
+            </div>
+            <div class="flex flex-row gap-3">
+                <div>
+                    <p class="font-black text-8xl text-[#B6A442]">02</p>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h3 class="text-3xl font-black">Innovation and Technology</h3>
+                    <p class="text-xs leading-5">Embracing the latest in construction innovation and technology, we 
+                        bring efficiency and accuracy to every project. From virtual design tools to sustainable 
+                        building practices, our commitment to staying at the forefront of industry advancements 
+                        ensures your project benefits from cutting-edge solutions.</p>
+                </div>
+            </div>
+            <div class="flex flex-row gap-3">
+                <div>
+                    <p class="font-black text-8xl text-[#B6A442]">03</p>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h3 class="text-3xl font-black">Client-Centric Approach</h3>
+                    <p class="text-xs leading-5">At the core of our values is a client-centric philosophy. We prioritize clear communication, 
+                        transparency, and collaboration. Your vision is our priority, and we strive to not only meet but exceed 
+                        expectations, ensuring a seamless and satisfying experience from project inception to completion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+    <!-- Testimonials -->
+    <section class="bg-black text-white p-[100px]">
+        <h2 class="uppercase text-xs text-center">What Our Clients Say</h2>
+        <p class="font-black text-center text-3xl">Customers is our priority</p>
+
+        <div class="flex flex-row gap-5 py-10 px-[100px] justify-center">
+            <div class="flex flex-col border-r border-white p-5 gap-6">
+                <img src="./img/quotes.png" alt="" class="h-4 w-6">
+                <p class="font-black">Highly Commended</p>
+                <p class="text-xs leading-5">First Option Construction exceeded our expectations! Their attention to detail and commitment to quality transformed our home. The team's professionalism made the process seamless. Highly recommend for any construction project!</p>
+                <div class="flex items-center gap-5">
+                    <img src="./img/joshua-rawson-harris-BRy-Cg-2s4k-unsplash.jpg" class="object-cover rounded-full h-20 w-20" alt="">
+                    <div>
+                        <p>Alexandra Bennett</p>
+                        <p>Kitchen Renovation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col p-5 gap-6">
+                <img src="./img/quotes.png" alt="" class="h-4 w-6">
+                <p class="font-black">A Trustworthy Team for Unmatched Commercial Transformation!</p>
+                <p class="text-xs leading-5">We had an incredible experience with First Option Construction. From concept to completion, they showcased unparalleled expertise. Our commercial space now reflects luxury and functionality. A trustworthy team dedicated to client satisfaction!</p>
+                <div>
+                    <div class="flex items-center gap-5">
+                        <img src="./img/joshua-rawson-harris-BRy-Cg-2s4k-unsplash.jpg" class="object-cover rounded-full h-20 w-20" alt="">
+                    <div>
+                        <p>Women Zone</p>
+                        <p>Commercial Renovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let's Chat -->
+    <section class="flex justify-between items-end bg-[url('/img/wood-bg.png')] text-white text-xl p-[100px]">
+        <h2 class="font-black uppercase text-5xl w-[50%]">Do you have a project to discuss?</h2>
+        <div class="flex items-center">
+            <p class="font-black uppercase text-4xl underline">Let's Chat</p>
+            <img src="./img/ri_arrow-up-line.png" class="h-[100px] w-[100px]" alt="">
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-black p-[100px] text-white flex justify-between">
+
+        <img src="./img/color1_logo_transparent_background.png" class="h-[100px]" alt="">
+        
+        <!-- Address -->
+        <div class="flex flex-col gap-8">
+            <p class="font-thin tracking-wide leading-snug text-sm">
+            1770 Alstep Dr. <br>
+            Mississauga, Ontario <br>
+            L5S 1W1 
+           </p>
+
+           <div class="flex flex-col gap-3">
+            <p class="font-thin tracking-wide leading-tight text-sm">(434) 546-4356</p>
+            <p class="font-thin tracking-wide leading-tight text-sm">hroosh@first-option.ca</p>
+           </div>
+        </div>
+
+        <!-- Links -->
+        <div class="flex flex-col text-sm font-thin gap-2">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- Socials -->
+        <div class="flex flex-col text-sm font-thin gap-2">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+        <!-- Back to Top -->
+        <img src="./img/Up arrow.png" class="h-[50px] w-[50px]" alt="">
+
+
+
+
+    </section>
+
+    
+
+</body>
+</html>
