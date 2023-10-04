@@ -32,7 +32,7 @@
     </nav>
 
     <!-- Landing Page -->
-    <section class="h-screen flex justify-between relative z-10 fade-in">
+    <section class="w-full h-screen flex justify-between relative z-10 fade-in">
         <div class="flex flex-col justify-center ml-[100px]">
             <h1 class="text-[72px] z-10 leading-snug font-black absolute top-[80px]">Crafting <span class="bg-[#BDBDBD] p-2">Excellence </br> in Construction</span></h1>
             <p class="w-[30%] text-xs leading-5 pt-24">At First Option, we don't just build structures; we create lasting impressions. Our skilled team of professionals is driven by a passion for precision and a commitment to delivering top-notch construction services. From conceptualization to completion, we prioritize quality, innovation, and client satisfaction. Choose First Option Construction for a seamless journey from vision to reality, where craftsmanship meets excellence.</p>
@@ -209,14 +209,14 @@
     </section> 
 
      <!-- Services Breakdown -->
-        <section class="px-[100px] py-[50px] reveal">  
-            <div class="flex gap-3 items-center">
+        <section class="lg:px-[100px] py-[20px] lg:py-[50px] reveal">  
+            <div class="flex px-[20px] gap-3 items-center">
                 <h2 class="font-extrabold text-[32px] uppercase">Our Process</h2>
                 <img src="./img/rect-horiz.png" class="h-[12px]" alt="">
             </div>
     
-            <div class="flex flex-col gap-16 pt-[50px]">
-                <div class="flex gap-5 text-xs uppercase justify-between">
+            <div class="flex flex-col gap-5 lg:gap-16 pt-[50px]">
+                <div class="flex flex-wrap sm:text-center px-5 gap-5 text-xs uppercase justify-between">
                     <a href="#" class="underline">Pre-construction</a>
                     <a href="">Construction</a>
                     <a href="">Design Build</a>
@@ -238,12 +238,13 @@
                     </div>
 
                     <img src="./img/pexels-mikael-blomkvist-8961298.jpg" class="object-cover h-[450px] w-[90%]" alt="">
-                    <div class="flex justify-between items-center w-[90%]">
-                        <p class="w-[60%] text-xs leading-5">
+                    
+                    <div class="flex justify-between items-center w-[90%] pt-[20px]">
+                        <p class="w-[60%] text-xs leading-5 justify-end">
                             In the initial phase, we meticulously plan every detail, assessing requirements and strategizing for success. 
                             Our pre-construction process sets the foundation for a seamless journey, ensuring precision and alignment with your vision.
                         </p>
-                        <button class="h-[83px] bg-[#D9D9D9] mt-[32px] w-fit p-4 flex justify-between items-center gap-3">
+                        <button class="invisible h-[83px] bg-[#D9D9D9] mt-[32px] w-fit p-4 flex justify-between items-center gap-3">
                             <a href="#"><p class="text-[12px] uppercase">Learn More</p></a>
                             <img src="./img/arrow.png" alt="" class="h-[20px]">
                         </button>
@@ -258,14 +259,14 @@
         </section>
 
     <!-- More About Us -->
-    <section class="mt-[100px] px-[100px] py-[100px] flex flex-col gap-12 bg-white reveal">
+    <section class="mt-[100px] px-[50px] lg:px-[100px] py-[100px] flex flex-col gap-12 bg-white reveal">
 
         <div>
-            <h2 class="font-black text-4xl w-[60%]">Innovation in Every Beam, Excellence in Every Detail: Crafting Tomorrow's Visions with Precision</h2>
+            <h2 class="font-black text-4xl w-[60%]">Transform Your Space <br> The Possibilities Are Endless</h2>
         </div>
 
-        <div class="flex gap-8 pt-10">
-            <div class="flex flex-row gap-3">
+        <div class="flex flex-col lg:flex-row gap-8 pt-10 pl-[20px]">
+            <div class="flex flex-col lg:flex-row gap-3">
                 <div>
                     <p class="font-black text-8xl text-[#B6A442]">01</p>
                 </div>
@@ -277,7 +278,7 @@
                         expert craftsmanship ensures your project is in capable hands.</p>
                 </div>
             </div>
-            <div class="flex flex-row gap-3">
+            <div class="flex flex-col lg:flex-row gap-3">
                 <div>
                     <p class="font-black text-8xl text-[#B6A442]">02</p>
                 </div>
@@ -289,7 +290,7 @@
                         ensures your project benefits from cutting-edge solutions.</p>
                 </div>
             </div>
-            <div class="flex flex-row gap-3">
+            <div class="flex flex-col lg:flex-row gap-3">
                 <div>
                     <p class="font-black text-8xl text-[#B6A442]">03</p>
                 </div>
@@ -305,12 +306,12 @@
  
 
     <!-- Testimonials -->
-    <section class="bg-black text-white p-[100px]">
+    <section class="bg-black text-white p-[20px] pt-[100px] lg:p-[100px]">
         <h2 class="uppercase text-xs text-center">What Our Clients Say</h2>
         <p class="font-black text-center text-3xl">Customers is our priority</p>
 
-        <div class="flex flex-row gap-5 py-10 px-[100px] justify-center">
-            <div class="flex flex-col border-r border-white p-5 gap-6">
+        <div class="flex flex-col lg:flex-row gap-5 py-10 px-[20px] lg:px-[100px] justify-center">
+            <div class="flex flex-col lg:border-r lg:border-white p-5 gap-6">
                 <img src="./img/quotes.png" alt="" class="h-4 w-6">
                 <p class="font-black">Highly Commended</p>
                 <p class="text-xs leading-5">First Option Construction exceeded our expectations! Their attention to detail and commitment to quality transformed our home. The team's professionalism made the process seamless. Highly recommend for any construction project!</p>
@@ -340,48 +341,54 @@
     </section>
 
     <!-- Let's Chat -->
-    <section class="flex justify-between items-end bg-[url('/img/wood-bg.png')] text-white text-xl p-[100px]">
-        <h2 class="font-black uppercase text-5xl w-[50%]">Do you have a project to discuss?</h2>
-        <div class="flex items-center">
-            <p class="font-black uppercase text-4xl underline">Let's Chat</p>
-            <img src="./img/ri_arrow-up-line.png" class="h-[100px] w-[100px]" alt="">
+    <section class="relative flex flex-col lg:flex-row justify-between lg:items-end bg-[url('/img/wood-bg.png')] text-white text-lg lg:text-xl p-[20px] pl-[50px] py-[50px] lg:p-[100px]">
+        <h2 class="font-black uppercase text-4xl lg:text-5xl w-[50%]">Do you have a project to discuss?</h2>
+        <div class="flex justify-end items-center pt-10">
+            <p class="font-black uppercase text-3xl lg:text-4xl underline">Let's Chat</p>
+            <img src="./img/ri_arrow-up-line.png" class="h-[80px] lg:h-[100px] w-[80px] lg:w-[100px]" alt="">
         </div>
         
     </section>
 
     <!-- Footer -->
-    <section class="bg-black p-[100px] text-white flex justify-between">
+    <section class="bg-black p-[20px] lg:p-[100px] text-white flex flex-col lg:flex-row justify-between">
 
-        <img src="./img/color1_logo_transparent_background.png" class="h-[100px]" alt="">
         
-        <!-- Address -->
-        <div class="flex flex-col gap-8">
-            <p class="font-thin tracking-wide leading-snug text-sm">
-            1770 Alstep Dr. <br>
-            Mississauga, Ontario <br>
-            L5S 1W1 
-           </p>
+            <img src="./img/color1_logo_transparent_background.png" class=" h-[90px] lg:h-[100px]" alt="">
+            
+            <!-- Address -->
+            <div class="flex flex-col gap-2 lg:gap-8">
+                <p class="font-thin tracking-wide leading-snug text-xs lg:text-sm">
+                1770 Alstep Dr. <br>
+                Mississauga, Ontario <br>
+                L5S 1W1 
+            </p>
 
-           <div class="flex flex-col gap-3">
-            <p class="font-thin tracking-wide leading-tight text-sm">(434) 546-4356</p>
-            <p class="font-thin tracking-wide leading-tight text-sm">hroosh@first-option.ca</p>
-           </div>
-        </div>
+            <div class="flex flex-col gap-2 lg:gap-3">
+                <p class="font-thin tracking-wide leading-tight text-xs lg:text-sm">(434) 546-4356</p>
+                <p class="font-thin tracking-wide leading-tight text-xs lg:text-sm">hroosh@first-option.ca</p>
+            </div>
+            </div>
+        
 
-        <!-- Links -->
-        <div class="flex flex-col text-sm font-thin gap-2">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
-        </div>
+        <div class="pl-[26px] lg:flex lg:flex-row lg:gap-20">
 
-        <!-- Socials -->
-        <div class="flex flex-col text-sm font-thin gap-2">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-            <a href="#">LinkedIn</a>
+            <!-- Links -->
+            <div class="flex flex-col text-sm font-thin gap-2">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <!-- Socials -->
+            <div class="flex flex-col text-sm font-thin gap-2">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+
         </div>
 
         <!-- Back to Top -->
